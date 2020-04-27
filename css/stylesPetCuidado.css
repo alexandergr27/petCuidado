@@ -1,0 +1,106 @@
+
+* { padding: 0px; margin: 0px; }
+
+.header{
+
+}
+
+/********************************/
+.navigationMenu {
+	
+	display: flex;
+	justify-content: center;
+
+}
+
+.navigationMenu a {
+
+	text-decoration: none;
+	font-size: 20px;
+	font-family: sans-serif;
+
+	color: #212F3D;
+	padding: 10px;
+	float: left;
+
+}
+
+.navigationMenu a:hover {
+
+	color: #2ECC71;
+
+}
+
+/**********************************/
+
+.content {
+
+	background-color: #ededed;
+	text-align: center;
+}
+
+.contentImage {
+	position: relative;
+	text-align: center;
+
+}
+
+.imageText {
+
+	position: absolute;
+	top: 80%;
+	left: 32%;
+
+	font-size: 30px;
+	font-family: sans-serif;
+	font-weight: 700;
+	color: #2ECC71;
+}
+
+.flex-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+	font-size: 18px;
+	font-family: sans-serif;
+
+}
+
+.flexcard {
+	box-sizing: border-box;
+	text-align: justify;
+
+	margin: 10px;
+}
+
+.flexcard h3 {
+	text-align: center;
+	line-height: 50px;
+	color: #2ECC71;
+}
+
+.flexAbout {
+
+	width: 50%;
+	box-sizing: border-box;
+	text-align: justify;
+
+	margin: 10px;
+}
+
+.flexAbout h3 {
+
+	text-align: center;
+	line-height: 50px;
+	color: #2ECC71;
+}
+
+/************************************/
+
+.footer {
+	background-color: #212F3D;
+
+	font-size: 18px;
+	font-family: sans-serif;
+	color: #eeee;
+}
