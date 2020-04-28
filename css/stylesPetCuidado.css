@@ -1,8 +1,24 @@
 
 * { padding: 0px; margin: 0px; }
-
+/********************************/
 .header{
+	height: 80px;
 
+}
+
+.logo {
+
+	text-decoration: none;
+	background-color: #2ECC71;
+	color: #eeee;
+	font-size: 20px;
+	font-family: sans-serif;
+
+	padding: 15px;
+	margin: 10px;
+	position: absolute;
+	box-shadow: 2px 2px 2px #ededed;
+	border-radius: 25px;
 }
 
 /********************************/
@@ -10,6 +26,7 @@
 	
 	display: flex;
 	justify-content: center;
+	padding-top: 20px;
 
 }
 
@@ -98,9 +115,52 @@
 /************************************/
 
 .footer {
+
 	background-color: #212F3D;
+
 
 	font-size: 18px;
 	font-family: sans-serif;
 	color: #eeee;
+}
+
+.footerContent {
+
+	display: flex;
+	justify-content: center;
+}
+
+.footer1, .footer2, .footer3 {
+
+	margin: 20px;
+	width: 30%;
+
+	text-align: justify;
+	line-height: 30px;
+
+}
+
+.footer2 {
+
+	text-align: center;
+}
+.footer2 ul {
+	list-style: none;
+	margin: 10px;
+}
+.footer2 li {
+	padding: 5px;
+}
+.footer2 a {
+	
+	text-decoration: none;
+	color: #eeee;
+
+}
+
+.footerinfo {
+
+	width: 100%;
+	padding-top : 20px;
+	padding-bottom: 20px;
 }
