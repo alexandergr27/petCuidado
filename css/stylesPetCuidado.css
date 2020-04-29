@@ -140,13 +140,28 @@
 
 }
 
+.linefooter {
+
+	background-color: #2ECC71;
+	border: none;
+	border-radius: 25px;
+	margin-bottom: 20px;
+	margin-top: 5px;
+}
+
 .footer2 {
 
 	text-align: center;
 }
+
+.footer2 hr{
+	margin: auto; margin-top: 5px;
+}
+
 .footer2 ul {
 	list-style: none;
 	margin: 10px;
+	
 }
 .footer2 li {
 	padding: 5px;
