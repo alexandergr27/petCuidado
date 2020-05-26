@@ -42,9 +42,19 @@
 
 }
 
+.navigationMenu a .linefooter {
+	display: none;
+}
+
 .navigationMenu a:hover {
 
 	color: #2ECC71;
+
+}
+
+.navigationMenu a:hover .linefooter {
+
+	display:block;
 
 }
 
