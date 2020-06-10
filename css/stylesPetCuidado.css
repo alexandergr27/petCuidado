@@ -153,7 +153,7 @@
 	margin: 10px;
 }
 
-.flexAbout h3 {
+.flexAbout h2 {
 
 	text-align: center;
 	line-height: 50px;
@@ -167,9 +167,11 @@
 	text-align: justify;
 
 	margin: 10px;
+	padding-top: 80px;
+	background-color:;
 }
 
-.flexAbout1 h3 {
+.flexAbout1 h2 {
 
 	text-align: center;
 	line-height: 50px;
@@ -189,8 +191,8 @@
 	float: left;
 	width: 100%;
 	text-align: left;
-	/*background-color: #eaeded;*/
-
+	background-color: #eaeded;
+	padding-bottom: 50px;
 }
 
 .contactForm h1 {
@@ -203,11 +205,12 @@
 .contactForm p {
 	font-size: 22px;
 	margin-bottom: 20px;
-	padding-left: 10px;
+	padding-left: 20px;
 }
 
 .contactItems {
 	padding: 10px;
+	padding-left: 20px;
 }
 .contactItems label, input, button {
 	margin: 10px;
@@ -259,6 +262,7 @@ float: left;
 
 	display: flex;
 	justify-content: center;
+	padding-top: 30px;
 }
 
 .footer1, .footer2, .footer3 {
