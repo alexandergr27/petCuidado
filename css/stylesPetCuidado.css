@@ -184,13 +184,49 @@
 	padding: 15px;
 }
 
+/***********************/
+.contactForm {
+	float: left;
+	width: 100%;
+	text-align: left;
+
+}
+
+.contactItems {
+	padding: 10px;
+}
+.contactItems label, input, button {
+	margin: 10px;
+}
+
+.contactItems input {
+	width: 20%;
+	height: 30px;
+	border: none;
+	border-radius: 25px;
+	box-shadow: 2px 2px 5px #d6dbdf; 
+	border-bottom: 2px;
+}
+
+.contactItems input:focus {
+	border:none;
+}
+
+.contactItems textarea {
+	border:none;
+	border-radius: 25px;
+	box-shadow: 2px 2px 5px #d6dbdf; 
+}
+
+
+
 /************************************/
 
 .footer {
 
 	background-color: #212F3D;
 
-
+float: left;
 	font-size: 16px;
 	font-family: sans-serif;
 	color: #eeee;
