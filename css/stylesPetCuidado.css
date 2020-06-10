@@ -189,7 +189,21 @@
 	float: left;
 	width: 100%;
 	text-align: left;
+	/*background-color: #eaeded;*/
 
+}
+
+.contactForm h1 {
+	text-align: center;
+	color: #2ECC71;
+	margin-top: 80px;
+	margin-bottom: 50px;
+}
+
+.contactForm p {
+	font-size: 22px;
+	margin-bottom: 20px;
+	padding-left: 10px;
 }
 
 .contactItems {
@@ -200,12 +214,16 @@
 }
 
 .contactItems input {
-	width: 20%;
+	width: 37%;
 	height: 30px;
 	border: none;
 	border-radius: 25px;
 	box-shadow: 2px 2px 5px #d6dbdf; 
 	border-bottom: 2px;
+	padding-left: 10px;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 16px;
+
 }
 
 .contactItems input:focus {
@@ -216,6 +234,11 @@
 	border:none;
 	border-radius: 25px;
 	box-shadow: 2px 2px 5px #d6dbdf; 
+	padding-left: 10px;
+	padding-top: 5px;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 16px;
+	margin-top: 5px;
 }
 
 
