@@ -308,6 +308,13 @@ float: left;
 
 }
 
+.socialPart {
+	padding: 5px;
+}
+
+.socialIcons {
+	padding: 10px;
+}
 .footerinfo {
 
 	width: 100%;
