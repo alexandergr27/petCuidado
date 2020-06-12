@@ -81,6 +81,7 @@
 	background-color: #F8F9F9;
 	text-align: center;
 	float: left;
+	width: 100%;
 }
 
 .contentImage {
@@ -108,7 +109,7 @@
 	margin-top: 50px;
 	font-size: 16px;
 	font-family: sans-serif;
-
+	
 }
 
 .flexcard {
@@ -251,8 +252,8 @@
 .footer {
 
 	background-color: #212F3D;
-
-float: left;
+	width: 100%;
+	float: left;
 	font-size: 16px;
 	font-family: sans-serif;
 	color: #eeee;
@@ -269,10 +270,9 @@ float: left;
 
 	margin: 20px;
 	width: 30%;
-
 	text-align: justify;
 	line-height: 30px;
-
+	
 }
 
 .linefooter {
@@ -320,4 +320,50 @@ float: left;
 	width: 100%;
 	padding-top : 20px;
 	padding-bottom: 20px;
+}
+
+/***************************************/
+
+@media screen and (max-width: 600px){
+
+	.contentImage img {
+		width: 100%;
+		height: auto;
+	}
+
+	.flex-container {
+		flex-direction: column;
+	}
+
+	.flexcard {
+		width: 95%;
+	}
+
+	.flexAbout, .flexAbout1 {
+		width: 95%;
+	}
+
+	.flexAbout img {
+		width: 100%;
+		height: auto;
+	}
+
+	.contactItems input {
+		width: 95%;
+	}
+
+	.footerContent {
+		flex-direction: column;
+	}
+
+	.footer1, .footer2, .footer3 {
+		width: 95%;
+		text-align: center;
+	}
+
+	.footer1 hr, .footer3 hr {
+		margin:auto;
+		margin-top: 8px;
+	}
+
 }
