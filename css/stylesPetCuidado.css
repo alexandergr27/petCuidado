@@ -159,6 +159,10 @@
 	margin: 10px;
 }
 
+.flexAbout img {
+	box-shadow: 2px 2px 2px 10px #e5e8e8;
+}
+
 .flexAbout h2 {
 
 	text-align: center;
